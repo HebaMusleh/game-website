@@ -18,5 +18,11 @@
     --foreground: #ededed;
   }
 }
-
-
+body{
+  @apply bg-[#39289F] text-foreground;
+}
+.hb {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}

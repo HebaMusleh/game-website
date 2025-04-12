@@ -1,13 +1,13 @@
 import React from "react";
-import { Footer, Header } from "../atoms";
+import { Container, Footer, Header } from "../atoms";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
+    <Container>
       <Header />
       {children}
       <Footer />
-    </>
+    </Container>
   );
 };
 
